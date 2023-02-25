@@ -111,8 +111,8 @@ html {
 }
 
 body {
-   background: url(/pepegodnft/naft-nft_marketplace/backgroundblue.avif);
-   min-width: 200px;
+     background: url(/pepegodnft/naft-nft_marketplace/assets/css/backgroundblue.avif);
+     min-width: 200px;
 }
 
 button, a, input, [tabindex] { outline-offset: 4px; }
