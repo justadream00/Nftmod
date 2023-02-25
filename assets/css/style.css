@@ -111,8 +111,8 @@ html {
 }
 
 body {
-  background: var(--rich-black-fogra-39);
-  min-width: 280px;
+  background: url(/pepegodnft/naft-nft_marketplace/backgroundblue.avif);
+  min-width: 200px;
 }
 
 button, a, input, [tabindex] { outline-offset: 4px; }
@@ -1278,4 +1278,43 @@ header .container {
 
   .footer-list { min-width: 180px; }
 
+}
+.connectbuton.hover:before {
+  
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+    opacity: 0.25;
+  
+}
+.connectbuton:before {
+  opacity: 0;
+  content: "";
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  border-radius: inherit;
+  background-color: #ffffff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+}
+.connectbuton::before {
+  position: absolute;
+  content: "";
+  top: 4px;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  background: var(--quick-silver);
+  border-radius: 50%;
+  border: 2px solid var(--sonic-silver);
+  transition: var(--transition);
+}
+
+.connectbuton::before {
+  background: var(--golden-puppy);
+  border-color: var(--field-drab);
 }
