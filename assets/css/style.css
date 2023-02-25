@@ -471,7 +471,7 @@ header .container {
 }
 
 .about-item {
-  background: var(--eerie-black-2);
+  ground: var(--eerie-black-2);
   padding: 20px;
   border-radius: 8px;
 }
